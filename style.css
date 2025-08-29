@@ -610,7 +610,7 @@ summary {
 
 .member-socials {
     margin-top: 1rem;
-    text-align: center; /* centers at the bottom of the card */
+    text-align: center; 
 }
 
 .social-icon {
@@ -627,7 +627,7 @@ summary {
 }
 
 .social-icon.linkedin {
-    background-color: #0077b5; /* LinkedIn blue */
+    background-color: #0077b5; 
 }
 
 .social-icon.linkedin:hover {
