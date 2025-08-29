@@ -765,6 +765,17 @@ summary {
     color: rgb(55 65 81 / 1);
 }
 
+/* Stilsetting for oppgavebeskrivelsen */
+.assignment-brief p {
+  margin-bottom: 1rem;   /* gir mellomrom mellom avsnitt */
+  line-height: 1.6;      /* gjør teksten mer lesbar */
+}
+
+.assignment-brief p:last-child {
+  margin-bottom: 0;      /* fjerner ekstra luft etter siste avsnitt */
+}
+
+
 
 /* ========================================
    DELIVERABLES SECTION
