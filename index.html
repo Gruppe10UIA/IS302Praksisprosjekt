@@ -35,18 +35,34 @@
                 Denne siden dokumenterer vårt arbeid i samarbeid med Kartverket gjennom praksisprosjektet IS-302 ved Universitetet i Agder.
             </p>
             <a href="assignment.html" class="hero-cta-button">Se oppgavebeskrivelse</a>
-        </div>
-            <div class="image-container" id="iimage">
-            <img src="images/stor paratai logo med gruppe10 og navn.svg" alt="ParatAI logo" class="responsive-image" id="iresponsive">
-        </div>
-        <style>
-            #iimage {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-        </style>
-        </div>
+<div class="image-container" id="iimage">
+  <img src="images/stor paratai logo med gruppe10 og navn.svg"
+       alt="ParatAI logo"
+       class="responsive-image"
+       id="iresponsive">
+</div>
+
+<style>
+  #iimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0; /* gir litt luft over og under */
+  }
+
+  #iresponsive {
+    max-width: 400px;   /* begrenser bredden */
+    width: 100%;        /* gjør at bildet skalerer ned på små skjermer */
+    height: auto;       /* beholder proporsjonene */
+  }
+
+  /* Ekstra: juster for veldig små skjermer */
+  @media (max-width: 600px) {
+    #iresponsive {
+      max-width: 300px;
+    }
+  }
+</style>
     </section>
 
 
